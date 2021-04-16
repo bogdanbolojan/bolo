@@ -1,0 +1,36 @@
+body {
+  background-color: dimgray;
+  color: white;
+}
+
+/* typografie */
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px 10px;
+}
+.newSection {
+  margin-top: 100px;
+}
+.block {
+  display: block;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grid {
+  display: grid;
+}
+.grid1x2 {
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+.grid1x2 p {
+  padding: 0 20px;
+}
